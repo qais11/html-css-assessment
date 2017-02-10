@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/main-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center top ;
+    background-size: cover;
+    font-family: 'Fredoka One', cursive;
+
+  }
+header{
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+a{
+  font-size: 24pt;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+
+
+.home{
+  float: left;
+  margin-top: 60px;
+  margin-left: 150px;
+
+}
+.about{
+  margin-top: 60px;
+  clear: both;
+}
+.story{
+  float: right;
+  margin-top: 60px;
+  margin-right: 150px;*/
+
+}
+.main-text{
+
+text-align: center;
+margin-top: 160px;
+
+}
+.your{
+  margin: 0;
+  font-size: 145pt;
+  color: white;
+  position: relative;
+}
+.personal{
+  font-size: 24px;
+  color: white;
+
+}
+.img-btn{
+   position: relative;
+   height: 50px;
+   text-align: center;
+   margin-top: 300px;
+}
+img{
+  height: 50px;
+  width: 50px;
+}
+.menu-img{
+  height: 100%;
+  width: 100%;
+}
+.responsive-menu{
+display: none;
+width: 50px;
+height: 50px;
+float: left;
+margin-left: 20px;
+}
+.icons{
+display: none;
+float: right;
+margin-right: 20px;
+width: 120px;
+height: 50px;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+  a{
+    display: none;
+  }
+.responsive-menu{
+  display: block;
+
+}
+.icons{
+  display: block;
+}
+}
